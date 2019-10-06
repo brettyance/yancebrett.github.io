@@ -1,0 +1,138 @@
+:root {
+    --powderblue: #19BAFF;
+    --navy: #000022;
+    --blue: #001242;
+    --aqmarine: #00BD9D;
+    --skyblue: #0094C6;
+}
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    background-color: var(--skyblue);
+    display: grid;
+    grid-template-rows:64px 64px 1fr 64px 64px;
+    grid-template-columns: 1fr 960px 1fr;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-self: end;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul :first-child {
+    border-radius: 32px 0 0 0;
+}
+
+nav ul :last-child {
+    border-radius: 0 32px 0 0;
+}
+
+nav ul li {
+    padding: 16px;
+    list-style-type: none;
+    flex-grow: 1;
+    text-align: center;
+    background-color: var(--navy);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#current {
+    background-color: var(--aqmarine);
+}
+
+main {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: var(--powderblue);
+    padding: 8px 32px;
+}
+
+#personas, #scenarios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#personas section {
+    flex-basis: 400px;
+    margin: 16px;
+    min-width: 128px;
+}
+
+#scenarios section {
+    margin: 16px 4px;
+    min-width: 256px;
+    max-width: 30%;
+}
+
+section :first-child {
+    border-radius: 16px 16px 0 0;
+}
+
+section :last-child {
+    border-radius: 0 0 16px 16px;
+}
+
+.section-header {
+    padding: 8px 32px;
+    display: block;
+    background-color: var(--skyblue);
+    margin: 0;
+}
+
+.section-main {
+    padding: 0 32px;
+    display: block;
+    background-color: white;
+    min-height: 128px;
+    margin: 0;
+    height: 90%;
+}
+
+.section-main :first-child {
+    margin-top: 0;
+    padding-top: 8px;
+}
+
+table {
+    margin: auto;
+}
+
+table * {
+    background-color: white;
+    padding: 16px;
+}
+
+table span {
+    padding: 4px;
+}
+
+footer {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: var(--navy);
+    border-radius: 0 0 32px 32px;
+}
