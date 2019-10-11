@@ -22,7 +22,8 @@ img {
 }
 
 #logo {
-    float: left;
+    display: block;
+    margin: auto;
 }
 
 header {
@@ -112,7 +113,7 @@ p {
 article {
     background-color: var(--powderblue);
     padding: .5em 2em;
-    margin: 1em 5%;
+    margin: 1em 0;
 }
 
 article img {
@@ -123,11 +124,12 @@ article img {
 
 footer {
     display: block;
-    margin: 10px auto 0;
+    margin: 10px auto;
     background-color: var(--navy);
     color: white;
     font-size: 12px;
     width: 100%;
+    margin: 0;
 }
 
 footer a:link {color:#fff;}
@@ -137,7 +139,7 @@ footer a:hover {background-color: #888;}
 footer a:active {background-color: #888;}
 
 footer section {
-    margin: 5px 20px;
+    margin: 5px 0;
 }
 
 #copyright {
