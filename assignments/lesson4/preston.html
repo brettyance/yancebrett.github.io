@@ -7,6 +7,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>Preston - Lil Ol Sun</title>
         <meta name="Description" content="Weather for Preston, Idaho provided by Lil Ol Sun">
+        <link rel="shortcut icon" href="images/icon.ico">
+        
+        <link rel="import" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="import" href="https://fonts.googleapis.com/css?family=Mansalva">
+        
+        
         <link rel="stylesheet" href="../../css/normalize.v8.0.1.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
@@ -17,7 +23,7 @@
     <body>
 
         <header>
-            <img id = "logo" alt = "Lil Ol Sun" src = "">
+            <img id = "logo" alt = "Lil Ol Sun" src = "images/icon.svg">
             <div><h1 id="title">Lil Ol Sun</h1></div>
             <div><p id="motto">Bringing Sunshine to You, Whatever the Weather!</p></div>
         </header>
@@ -26,7 +32,7 @@
 
             <ul class="navigation">
 
-                <li onclick="openMenu();"><a href="#">&#9776 Menu</a></li>
+                <li onclick="openMenu();"><a href="#">&#9776; Menu</a></li>
                 <li><a href="#">Home</a></li>
                 <li id="current"><a href="#">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
@@ -41,8 +47,10 @@
         <main>
 
             <article class="weather-and-hero">
+
+                <h2 style="display: none;">weather-and-hero</h2>
                 
-                <figure><img src="" alt="Hero Image" id ="hero"></figure>
+                <figure><img src="#" alt="Hero Image" id ="hero"></figure>
                 <figure id="weather-summary"></figure>
             
             </article>
@@ -58,16 +66,17 @@
                     <p>Vitae nunc sed velit dignissim sodales ut. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Faucibus in ornare quam viverra orci sagittis. Vestibulum sed arcu non odio euismod lacinia at. Lacus vestibulum sed arcu non odio euismod lacinia. Aliquet nibh praesent tristique magna sit amet purus gravida. Nibh tellus molestie nunc non blandit. Risus at ultrices mi tempus imperdiet nulla. Ut placerat orci nulla pellentesque dignissim enim. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Turpis nunc eget lorem dolor sed viverra ipsum. Quam id leo in vitae turpis massa sed elementum. Arcu dictum varius duis at consectetur lorem donec massa. Nisi est sit amet facilisis magna. Molestie at elementum eu facilisis. Sed felis eget velit aliquet sagittis id. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. Nec feugiat nisl pretium fusce id. Nulla at volutpat diam ut venenatis tellus. Quam quisque id diam vel quam elementum pulvinar etiam.</p><br>
                     <p>Elementum eu facilisis sed odio. Non pulvinar neque laoreet suspendisse interdum. Et netus et malesuada fames. Et netus et malesuada fames. Consequat id porta nibh venenatis cras. Elit at imperdiet dui accumsan sit. Sed id semper risus in hendrerit gravida. Et netus et malesuada fames ac turpis. At lectus urna duis convallis. Massa id neque aliquam vestibulum morbi blandit cursus risus. Integer vitae justo eget magna fermentum. Quisque egestas diam in arcu. Arcu felis bibendum ut tristique et egestas.</p><br>
 
-                    <aside><img src="" alt="Article Image"></aside>
+                    <aside><img src="#" alt="Article Image"></aside>
 
             </article>
 
             <article class="final">
+                <h2 style="display: none;">final</h2>
                 <div id="contact-info">
                     email: admin@lilolsun.com<br>
                     phone: (555) 555-5555<br>
                 </div>
-                <figure class="map" alt="map"></figure>
+                <figure class="map"></figure>
             </article>
 
         </main>
