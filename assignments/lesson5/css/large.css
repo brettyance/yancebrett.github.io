@@ -1,0 +1,26 @@
+@media only screen and (min-width: 60em) {
+
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	
+	.weather-and-hero {
+		background-image: url('../images/cloudsLarge.jpg');
+		height: 400px;
+		max-width: 1168px;
+		margin: auto;
+	}
+
+    article, footer {
+        max-width: 1168px;
+    }
+}

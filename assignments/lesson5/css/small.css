@@ -1,0 +1,177 @@
+:root {
+    --powderblue: #19BAFF;
+    --navy: #000022;
+    --blue: #001242;
+    --aqmarine: #00BD9D;
+    --skyblue: #0094C6;
+    background-color: var(--skyblue);
+}
+
+*{
+    font-family: "Montserrat";
+    margin: 0px;
+}
+
+#logo {
+    background-color: var(--powderblue);
+    display: block;
+    margin: auto;
+    max-width: 100px;
+}
+
+header {
+    background-color: var(--powderblue);
+    text-align: center;
+    padding: 2.5em 1.5em .5em 4em;
+    margin: 0em;
+    overflow: hidden;
+}
+
+#title, #motto {
+    color: white;
+}
+
+header p {
+    font-size: 12px;
+}
+
+nav {
+    clear: both;
+    font-size: 16px;
+    margin-top: 0em;
+    background-color: var(--navy);
+}
+
+.navigation {
+    display: block;
+    padding: 0;
+}
+
+nav a:link, nav a:visited {color:#fff;}
+nav a:focus, nav a:hover, nav a:active {background-color: var(--aqmarine);}
+
+#current {
+    background-color: var(--aqmarine);
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-family: "Mansalva";
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.responsive li {
+    display: block;
+}
+
+h1, h2, h3 {
+    font-family: "Mansalva";
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2, h3 {
+    color: var(--navy);
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+p {
+    color: #000;
+    font-size: 16px;
+}
+
+article {
+    background-color: var(--powderblue);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.weather-and-hero {
+    background-color: transparent;
+    position: relative;
+    margin-top: 0;
+    background-image: url('../images/cloudsSmall.jpg');
+    background-repeat: no-repeat;
+    height: 344px;
+    padding-bottom: 0;
+}
+
+.weather-summary-background {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    height: 135px;
+    width: 250px;
+    background-color: white;
+    opacity: .25;
+    height: 140px;
+}
+
+.weather-summary {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    background-color: transparent;
+    opacity: 1;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.last {
+    margin-bottom: 0;
+}
+
+#five-day, .map {
+    display: none;
+}
+
+footer {
+    display: block;
+    background-color: var(--navy);
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    padding: 1rem;
+}
+
+footer a:link {color:#fff;}
+footer a:visited {color:#fff;}
+footer a:focus {background-color: #888;}
+footer a:hover {background-color: #888;}
+footer a:active {background-color: #888;}
+
+#copyright {
+    text-align: center;
+}
+
+#copyright p{
+    color:var(--powderblue);
+}

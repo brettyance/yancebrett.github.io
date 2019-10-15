@@ -1,0 +1,32 @@
+@media only screen and (min-width: 32.5em) {
+    
+    #logo {
+        float: left;
+    }
+
+    .weather-and-hero {
+        background-image: url('../images/cloudsMedium.jpg');
+        max-width: 718px;
+        height: 240px;
+        margin: auto;
+        padding: 1rem;
+    }
+
+    article, footer {
+        width: 80%;
+        max-width: 718px;
+        margin: auto;
+    }
+
+    article {
+        margin-bottom: 1rem;
+    }
+
+    .final {
+        margin-bottom: 0;
+    }
+
+    #five-day, .map {
+        display: block;
+    }
+}
