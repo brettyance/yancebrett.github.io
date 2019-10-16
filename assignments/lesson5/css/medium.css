@@ -6,15 +6,14 @@
 
     .weather-and-hero {
         background-image: url('../images/cloudsMedium.jpg');
-        max-width: 718px;
+        max-width: 750px;
         height: 240px;
         margin: auto;
-        padding: 1rem;
     }
 
     article, footer {
         width: 80%;
-        max-width: 718px;
+        max-width: 750px;
         margin: auto;
     }
 

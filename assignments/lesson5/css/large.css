@@ -16,11 +16,11 @@
 	.weather-and-hero {
 		background-image: url('../images/cloudsLarge.jpg');
 		height: 400px;
-		max-width: 1168px;
+		max-width: 1200px;
 		margin: auto;
 	}
 
     article, footer {
-        max-width: 1168px;
+        max-width: 1200px;
     }
 }
