@@ -9,8 +9,8 @@
         <meta name="Description" content="Weather for Preston, Idaho provided by Lil Ol Sun">
         <link rel="shortcut icon" href="images/icon.ico">
         
-        <link rel="import" href="https://fonts.googleapis.com/css?family=Montserrat">
-        <link rel="import" href="https://fonts.googleapis.com/css?family=Mansalva">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mansalva">
         
         
         <link rel="stylesheet" href="../../css/normalize.v8.0.1.css">
@@ -23,9 +23,11 @@
     <body>
 
         <header>
-            <img id = "logo" alt = "Lil Ol Sun" src = "images/icon.svg">
-            <div><h1 id="title">Lil Ol Sun</h1></div>
-            <div><p id="motto">Bringing Sunshine to You, Whatever the Weather!</p></div>
+            <img id="logo" alt = "Lil Ol Sun" src = "images/icon.svg">
+            <div id="title-motto-container">
+                <div><h1 id="title">Lil Ol Sun</h1></div>
+                <div><p id="motto">Bringing Sunshine to You, Whatever the Weather!</p></div>
+            </div>
         </header>
 
         <nav>
@@ -45,6 +47,7 @@
         </nav>
 
         <main>
+            <h1 id="page-heading">Preston, Idaho</h1>
 
             <article class="weather-and-hero">
                 <h2 style="display: none;">weather-and-hero</h2>
@@ -78,7 +81,7 @@
                 </figure>
             </article>
 
-            <article class="five-day">
+            <article id="five-day">
                 <h2 style="display: none;">five-day</h2>
                 <div>TODO: 5-day forecast</div>
                 <div></div>
@@ -87,7 +90,13 @@
                 <div></div>
             </article>
 
-            <article>
+            <article class="article">
+
+                    <figure class="article-image">
+                        <img id="article-image-1" src="images/articleimage1.jpg" alt="Article Image">
+                    </figure>
+                    
+                <section class="article-content">
 
                     <h2>Article Title</h2>
                     <h3>by author</h3>
@@ -98,8 +107,7 @@
                     <p>Vitae nunc sed velit dignissim sodales ut. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Faucibus in ornare quam viverra orci sagittis. Vestibulum sed arcu non odio euismod lacinia at. Lacus vestibulum sed arcu non odio euismod lacinia. Aliquet nibh praesent tristique magna sit amet purus gravida. Nibh tellus molestie nunc non blandit. Risus at ultrices mi tempus imperdiet nulla. Ut placerat orci nulla pellentesque dignissim enim. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Turpis nunc eget lorem dolor sed viverra ipsum. Quam id leo in vitae turpis massa sed elementum. Arcu dictum varius duis at consectetur lorem donec massa. Nisi est sit amet facilisis magna. Molestie at elementum eu facilisis. Sed felis eget velit aliquet sagittis id. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. Nec feugiat nisl pretium fusce id. Nulla at volutpat diam ut venenatis tellus. Quam quisque id diam vel quam elementum pulvinar etiam.</p><br>
                     <p>Elementum eu facilisis sed odio. Non pulvinar neque laoreet suspendisse interdum. Et netus et malesuada fames. Et netus et malesuada fames. Consequat id porta nibh venenatis cras. Elit at imperdiet dui accumsan sit. Sed id semper risus in hendrerit gravida. Et netus et malesuada fames ac turpis. At lectus urna duis convallis. Massa id neque aliquam vestibulum morbi blandit cursus risus. Integer vitae justo eget magna fermentum. Quisque egestas diam in arcu. Arcu felis bibendum ut tristique et egestas.</p><br>
 
-                    <aside><img src="#" alt="Article Image"></aside>
-
+                </section>
             </article>
 
             <article class="final">
@@ -110,7 +118,7 @@
                         phone: (555) 555-5555<br>
                     </p>
                 </div>
-                <figure class="map">test</figure>
+                <figure id="map">TODO: Map</figure>
             </article>
 
         </main>

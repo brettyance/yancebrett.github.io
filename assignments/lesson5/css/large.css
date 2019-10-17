@@ -12,6 +12,10 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+
+	#page-heading {
+		margin: 1em 0;
+	}
 	
 	.weather-and-hero {
 		background-image: url('../images/cloudsLarge.jpg');
@@ -22,5 +26,10 @@
 
     article, footer {
         max-width: 1200px;
-    }
+	}
+	
+	.article-image {
+		float: right;
+		padding: 8px;
+	}
 }
