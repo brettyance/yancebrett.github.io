@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 960px) {
 
 	.navigation {
 		display: flex;
@@ -20,16 +20,19 @@
 	.weather-and-hero {
 		background-image: url('../images/cloudsLarge.jpg');
 		height: 400px;
-		max-width: 1200px;
-		margin: auto;
 	}
 
     article, footer {
-        max-width: 1200px;
+		max-width: 800px;
+		overflow: hidden;
+	}
+
+	.article-content {
+		float: left;
 	}
 	
 	.article-image {
 		float: right;
-		padding: 8px;
+		padding: 8px 16px 24px 8px;
 	}
 }

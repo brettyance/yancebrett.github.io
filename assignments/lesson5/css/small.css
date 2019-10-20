@@ -111,6 +111,7 @@ p {
 }
 
 #page-heading {
+    text-align: center;
     font-family: "Mansalva";
     color: var(--navy);
 }
@@ -154,6 +155,22 @@ article img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.article {
+    display: flex;
+    flex-flow: column;
+}
+
+.article-image {
+    order: 1;
+    margin: 16px;
+}
+
+.article h2,
+.article h3,
+.article p {
+    margin: 8px;
 }
 
 .last {

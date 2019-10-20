@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 520px) {
     
     #logo {
         margin: 0;
@@ -7,25 +7,37 @@
     header {
         display: flex;
     }
-    #page-heading {
-        text-align: center;
-    }
 
     .weather-and-hero {
         background-image: url('../images/cloudsMedium.jpg');
-        max-width: 750px;
+        max-width: 800px;
         height: 240px;
         margin: auto;
     }
 
     article, footer {
         width: 80%;
-        max-width: 750px;
+        max-width: 800px;
         margin: auto;
     }
 
     article {
         margin-bottom: 1rem;
+    }
+
+    .article {
+        display: block;
+    }
+
+	.article-image {
+		float: right;
+		padding: 8px 16px 24px 8px;
+    }
+    
+    .article h2,
+    .article h3,
+    .article p {
+        margin: 0;
     }
 
     .final {
