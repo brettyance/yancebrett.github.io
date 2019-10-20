@@ -40,11 +40,21 @@
         margin: 0;
     }
 
+    .five-day {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .day-forecast {
+        font-size: 12px;
+        background-color: #B8D3FF;
+    }
+
     .final {
         margin-bottom: 0;
     }
 
-    #five-day, #map {
+    #map {
         display: block;
     }
 }

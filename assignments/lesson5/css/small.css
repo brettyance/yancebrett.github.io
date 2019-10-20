@@ -20,6 +20,16 @@
     margin: auto;
 }
 
+.banner {
+    display: none;
+    background-color: #FFFF31;
+    text-align: center;
+}
+
+.friday {
+    display: block;
+}
+
 header {
     display: block;
     justify-content: center;
@@ -177,7 +187,7 @@ article img {
     margin-bottom: 0;
 }
 
-#five-day, #map {
+.five-day, #map {
     display: none;
 }
 
