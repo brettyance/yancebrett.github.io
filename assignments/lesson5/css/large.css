@@ -35,4 +35,8 @@
 		float: right;
 		padding: 8px 16px 24px 8px;
 	}
+
+	#map {
+		width: 632px;
+	}
 }
