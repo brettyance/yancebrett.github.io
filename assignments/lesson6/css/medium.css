@@ -1,0 +1,62 @@
+@media only screen and (min-width: 520px) {
+    
+    #logo {
+        margin: 0;
+    }
+
+    header {
+        display: flex;
+    }
+
+    .weather-and-hero {
+        background-image: url('../images/cloudsMedium.jpg');
+        max-width: 800px;
+        height: 240px;
+        margin: auto;
+    }
+
+    article, footer {
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    article {
+        margin-bottom: 1rem;
+    }
+
+    .article {
+        display: block;
+    }
+
+	.article-image {
+		float: right;
+		padding: 8px 16px 24px 8px;
+    }
+    
+    .article h2,
+    .article h3,
+    .article p {
+        margin: 0;
+    }
+
+    .five-day {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .day-forecast {
+        font-size: 12px;
+        background-color: #B8D3FF;
+    }
+
+    .final {
+        margin-bottom: 0;
+    }
+
+    #map {
+        margin: auto;
+        display: block;
+        width: 350px;
+    }
+}
