@@ -25,7 +25,7 @@ var months = [
 
 var dateC = new Date();
 
-var day = days[dateC.getDay()];2
+var day = days[dateC.getDay()];
 var month = months[dateC.getMonth()];
 
 var date = `${day}, ${dateC.getDate()} ${month} ${dateC.getFullYear()}`;
@@ -46,12 +46,6 @@ function setDayOfWeek() {
 function setDate() {
 
     document.getElementById("date").innerHTML = date;
-}
-
-function setChill() {
-    for (i = 0; i < 5; i++) {
-        document.getElementById(`day${i + 1}chill`).innerHTML = ;
-    }
 }
 
 function start() {

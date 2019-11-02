@@ -136,10 +136,10 @@ article {
     background-color: transparent;
     position: relative;
     margin-top: 0;
+    background-image: url('../images/cloudsSmall.jpg');
     background-repeat: no-repeat;
-    height: 250px;
+    height: 344px;
     padding: 0;
-    overflow: hidden;
 }
 
 .weather-summary-background {

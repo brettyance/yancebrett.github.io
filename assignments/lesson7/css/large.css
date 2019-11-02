@@ -18,6 +18,7 @@
 	}
 	
 	.weather-and-hero {
+		background-image: url('../images/cloudsLarge.jpg');
 		height: 400px;
 	}
 

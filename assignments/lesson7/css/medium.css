@@ -9,6 +9,7 @@
     }
 
     .weather-and-hero {
+        background-image: url('../images/cloudsMedium.jpg');
         max-width: 800px;
         height: 240px;
         margin: auto;
