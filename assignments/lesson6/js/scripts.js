@@ -48,12 +48,6 @@ function setDate() {
     document.getElementById("date").innerHTML = date;
 }
 
-function setChill() {
-    for (i = 0; i < 5; i++) {
-        document.getElementById(`day${i + 1}chill`).innerHTML = ;
-    }
-}
-
 function start() {
     setFriday();
     setDayOfWeek();
