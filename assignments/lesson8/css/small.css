@@ -191,6 +191,10 @@ article img {
     display: none;
 }
 
+.form-div {
+    margin: 16px 32px;
+}
+
 footer {
     display: block;
     background-color: var(--navy);
