@@ -1,0 +1,41 @@
+@media only screen and (min-width: 960px) {
+
+	.navigation {
+		display: flex;
+	}
+
+	.navigation li:first-child {
+		display: none;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+	#page-heading {
+		margin: 1em 0;
+	}
+	
+	.weather-and-hero {
+		height: 400px;
+	}
+
+    article, footer {
+		max-width: 800px;
+		overflow: hidden;
+	}
+
+	.article-content {
+		float: left;
+	}
+	
+	.article-image {
+		float: right;
+		padding: 8px 16px 24px 8px;
+	}
+
+	#map {
+		width: 632px;
+	}
+}
